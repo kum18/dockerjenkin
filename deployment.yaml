@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image:  kishore92/huper:v6.0.0 .
+          image:  kishore92/huper:v7.0.0 .
           ports:
             - containerPort: 8080
 ---
