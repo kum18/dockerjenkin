@@ -5,7 +5,7 @@ metadata:
   labels:
     app: app1-nginx
 spec:
-  replicas: 3
+  replicas: 6
   selector:
     matchLabels:
       app: app1-nginx
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: rupesh01/dockerjenkin:v3.0.0
+          image: kishore92/huper:v8.0.0
           ports:
             - containerPort: 8080
 ---
